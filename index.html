@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Instagram photo feed 2do intento</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-------------------------------------------------NAVBAR------------------------------------------------------------------->
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand float-start " style=" font-size:180%; color: grey;"><i class=" fab fa-instagram ""></i> Instagram</a>
+      <div class=" d-flex">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success me-2"
+            type="submit">Create a new post</button>
+
+          <!------------------------ Modal -------------------->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <textarea name="" id="" cols="63" rows="5"></textarea>
+                  <a href=""><i class="fas fa-camera fa-2x m-2"></i></a>
+                  <a href=""><i class="fas fa-map-marker-alt fa-2x m-2"></i></a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-----------------Dropdown--------------->
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-cog fa-2x"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+    </div>
+    </div>
+  </nav>
+
+  <!--------------------------------------------------------NAVBAR secundario------------------------------------------------------->
+
+  <div class="container">
+    <ul class="nav nav-pills justify-content-center my-3">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-th fa-2x"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="second.html"><i class="fas fa-square fa-2x"></i></a>
+      </li>
+    </ul>
+  </div>
+
+  <!----------------------------------------------------------GRID-------------------------------------------------------------->
+
+  <div class="container-fluid">
+    <div class="row d-flex overflow-hidden my-2">
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100" src="https://i.pinimg.com/236x/78/53/ae/7853ae06ef6bc72ab3f08f2f1ea0322b.jpg" alt="">
+      </div>
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100 align-middle" src="https://i.pinimg.com/236x/27/20/f3/2720f32d2bed44ed8c5f340ee46ef55d.jpg"
+          alt="">
+      </div>
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100" src="https://i.pinimg.com/236x/bb/c5/3d/bbc53d1f9a2a745ded7ea547bb1dd01e.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="row d-flex overflow-hidden my-2">
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100" src="https://i.pinimg.com/236x/f0/14/77/f01477d1da504f4d239d11400c99843e.jpg" alt="">
+      </div>
+      <div class="col-12 col-lg-4" style="height: 300px;">
+        <img class="w-100 " src="https://i.pinimg.com/236x/c7/e8/1e/c7e81e38e62dfe9c384bf2349b3ddcc8.jpg" alt="">
+      </div>
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100" src="https://i.pinimg.com/236x/78/a3/b6/78a3b6e1e7939f3a2e868d8998086a9d.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="row d-flex overflow-hidden my-2">
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100" src="https://i.pinimg.com/236x/59/49/9b/59499ba37871bee098d9cdabfc7da7c6.jpg" alt="">
+      </div>
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100" src="https://i.pinimg.com/236x/f5/3e/b3/f53eb3bc58c0f019dc475db47d96a33f.jpg" alt="">
+      </div>
+      <div class="col-12  col-lg-4" style="height: 300px;">
+        <img class="w-100" src="https://i.pinimg.com/236x/37/14/f3/3714f3efd249d1a1c12fd5c330bf0447.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!----------------------------------------------------------ULTIMO---------------------------------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
